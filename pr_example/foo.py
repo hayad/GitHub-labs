@@ -1,12 +1,14 @@
 
 foo = {
 	'id': 111,
-	'status': 'green'
+	'status': 'green',
+	'weight': 0.6
 }
 
 bar = {
 	'id': 222,
-	'status': 'red'
+	'status': 'red',
+	'weight': 0.7
 }
 
 data = {
