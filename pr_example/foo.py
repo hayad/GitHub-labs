@@ -1,3 +1,4 @@
+import pandas as pd
 
 foo = {
 	'id': 111,
@@ -16,4 +17,6 @@ data = {
 	'bar': bar,
 }
 
+df = pd.DataFrame.from_dict(data)
+print(df)
 print(data)
