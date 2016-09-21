@@ -17,6 +17,8 @@ data = {
 	'bar': bar,
 }
 
-df = pd.DataFrame.from_dict(data)
-print(df)
 print(data)
+
+df = pd.DataFrame.from_dict(data)
+
+print(df)
